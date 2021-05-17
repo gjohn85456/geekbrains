@@ -1,0 +1,79 @@
+.firstPartMainBackground_product {
+    background: #F7F7F7;
+}
+
+.firstPartMain_product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MainWomen-img {
+    padding-top: 11px;
+    padding-bottom: 42px;
+}
+
+.Arrow_product {
+    height: 47px;
+    width: 47px;
+    background: rgba(42, 42, 42, 0.15);
+}
+
+.Arrow_product img {
+    padding: 12px 17px;
+}
+
+.secondPartMain_product {
+    border: 1px solid #EAEAEA;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.secondPartMain_product p:nth-child(1) {
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.secondPartMainLinePink_product {
+    width: 63px;
+    height: 3px;
+    background: #EF5B70;
+    margin-top: 12px;
+}
+
+.secondPartMain_product p:nth-child(3) {
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    padding-top: 12px;
+}
+
+.secondPartMain_product p:nth-child(4) {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    padding-top: 48px;
+    width: 555px;
+}
+
+.secondPartMain_product p:nth-child(5) {
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    padding-top: 32px;
+}
+
+.secondPartMainLineGrey_product {
+    width: 641px;
+    height: 1px;
+    background-color: #EAEAEA;
+    /* border: 1px solid #EAEAEA; */
+    margin-top: 65px;
+}
