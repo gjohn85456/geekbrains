@@ -155,3 +155,25 @@
         margin-top: 0;
     }
 }
+
+@media (max-width: 375px) {
+    .MainWomen-img {
+        width: 95%;
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    .firstPartMain_product {
+        justify-content: center;
+    }
+    .secondPartMain_product {
+        top: 0;
+    }
+    .ArrowLeft {
+        position: relative;
+        left: 38px;
+    }
+    .ArrowRight {
+        position: relative;
+        right: 38px;
+    }
+}
