@@ -1,3 +1,5 @@
+/* MAIN */
+
 .firstPartMainBackground_product {
     background: #F7F7F7;
 }
@@ -6,6 +8,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .MainWomen-img {
@@ -23,6 +27,9 @@
     padding: 12px 17px;
 }
 
+
+/* Second Part Main */
+
 .secondPartMain_product {
     border: 1px solid #EAEAEA;
     padding-top: 64px;
@@ -30,11 +37,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 230px;
-    margin-right: 230px;
+    /* margin-left: 230px;
+    margin-right: 230px; */
+    top: -64px;
+    background: #FFFFFF;
+    position: relative;
 }
 
-.secondPartMain_product p:nth-child(1) {
+.secondPartMain_product h3 {
     font-size: 14px;
     line-height: 17px;
     color: #F16D7F;
@@ -47,23 +57,23 @@
     margin-top: 12px;
 }
 
-.secondPartMain_product p:nth-child(3) {
+.secondPartMain_product h2 {
     font-size: 18px;
     line-height: 22px;
     color: #4D4D4D;
     padding-top: 12px;
 }
 
-.secondPartMain_product p:nth-child(4) {
+.secondPartMainText_product {
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     color: #5E5E5E;
     padding-top: 48px;
-    width: 555px;
+    width: 575px;
 }
 
-.secondPartMain_product p:nth-child(5) {
+.secondPartMainPrice_product {
     font-size: 24px;
     line-height: 29px;
     color: #EF5B70;
@@ -76,4 +86,72 @@
     background-color: #EAEAEA;
     /* border: 1px solid #EAEAEA; */
     margin-top: 65px;
+}
+
+.secondPartMainMenu_product {
+    display: flex;
+    padding-top: 65px;
+    align-items: center;
+}
+
+.secondPartMainMenu_product p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    padding-right: 23px;
+}
+
+.secondPartMainMenu_product img {
+    padding-right: 23px;
+}
+
+.addToChar {
+    display: flex;
+    border: 1px solid #FF6A6A;
+    width: 212px;
+    height: 47px;
+    align-items: center;
+    margin-top: 65px;
+    text-decoration: none;
+}
+
+.addToChar img {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.addToChar p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+}
+
+.footer {
+    margin-top: 0;
+}
+
+
+/* Third Part Main */
+
+.thirdPartMain_product {
+    padding-top: 64px;
+    padding-bottom: 128px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1024px) {
+    #catalog_product div:nth-child(3) {
+        display: none;
+    }
+    .thirdPartMain_product {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .footer {
+        margin-top: 0;
+    }
 }
