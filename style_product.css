@@ -70,7 +70,7 @@
     text-align: center;
     color: #5E5E5E;
     padding-top: 48px;
-    width: 575px;
+    max-width: 575px;
 }
 
 .secondPartMainPrice_product {
@@ -158,7 +158,7 @@
 
 @media (max-width: 375px) {
     .MainWomen-img {
-        width: 95%;
+        height: 454px;
         padding-top: 85px;
         padding-bottom: 85px;
     }
@@ -170,10 +170,99 @@
     }
     .ArrowLeft {
         position: relative;
-        left: 38px;
+        left: 47px;
     }
     .ArrowRight {
         position: relative;
-        right: 38px;
+        right: 47px;
+    }
+    .secondPartMain_product {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .secondPartMainText_product {
+        line-height: 20px;
+        padding-top: 22px;
+    }
+    .secondPartMainPrice_product {
+        line-height: 31px;
+    }
+    .secondPartMainLineGrey_product {
+        width: 175px;
+        margin-top: 32px;
+    }
+    .secondPartMainMenu_product {
+        padding-top: 50px;
+    }
+    .secondPartMainMenu_product p {
+        font-size: 10px;
+        line-height: 12px;
+        padding-right: 9px;
+    }
+    .secondPartMainMenu_product img:last-child {
+        padding-right: 16px;
+    }
+    .thirdPartMain_product {
+        gap: 0;
+        grid-template-columns: 1fr;
+        padding-bottom: 64px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #catalog_product div:nth-child(3) {
+        display: initial;
+    }
+    #catalog_product div:nth-child(2) {
+        display: none;
+    }
+    .subscribeSecondPartFooter {
+        padding-bottom: 110px;
+    }
+    .textSecondPartFace {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .textSubscribeSecondPartFooter {
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .textSubscribeSecondPartFooter {
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        font-weight: normal;
+    }
+    .textBold {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 37px;
+        text-align: center;
+    }
+    .footer {
+        background: none;
+    }
+    .secondPartFooterBackground {
+        background-position: bottom;
+        background-position-x: 24%;
+    }
+    .faceSecondPartFooter {
+        padding-top: 64px;
+        padding-bottom: 0;
+    }
+    .subscribeSecondPartFooter {
+        padding-top: 60px;
+        padding-bottom: 110px;
+    }
+    .textSubscribeSecondPartFooter {
+        margin-bottom: 22px;
+    }
+    .buttonSubscribe {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .thirdPartFooter {
+        background: #222224;
     }
 }
