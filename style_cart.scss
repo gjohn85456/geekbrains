@@ -127,12 +127,12 @@ $grayLighter-color-card:#6F6E6E;
             }
         }
         //почему такая конструкция не работает? и как обратится по селектору?
-        // &>mainCart_left_card-1:nth-child(2) {
-        //     margin-top: 40px;
-        // }
-        &>div:nth-child(2) {
+        &>.mainCart_left_card-1:nth-child(2) {
             margin-top: 40px;
         }
+        // &>div:nth-child(2) {
+        //     margin-top: 40px;
+        // }
         .mainCart_left_buttons {
             display: flex;
             justify-content: space-between;

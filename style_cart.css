@@ -196,7 +196,7 @@
   }
 }
 
-.mainCart_left > div:nth-child(2) {
+.mainCart_left > .mainCart_left_card-1:nth-child(2) {
   margin-top: 40px;
 }
 
