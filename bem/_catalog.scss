@@ -19,17 +19,10 @@
 }
 
 .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     height: 75px;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -66,18 +59,13 @@
 }
 
 .secondPartTop {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     /* width: 1600px; */
     margin: 0 auto;
 }
 
 .theBrand_img {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-item-align: center;
     align-self: center;
     width: 23%;
 }
@@ -86,33 +74,20 @@
 /* -------------------MainCatalog------------------------ */
 
 .mainCatalog {
-    display: -ms-grid;
     display: grid;
     gap: 30px;
     margin-top: 65px;
-    -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-
-/* почему тут ругается? */
-
-.accesories {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    grid-column-end: -1;
-}
-
+// .accesories {
+//     grid-column-start: 1;
+//     grid-column-end: -1;
+// }
 .forWomen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -121,41 +96,23 @@
 }
 
 .forMen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .forKids {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .accesories {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     position: relative;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -167,15 +124,8 @@
 }
 
 .head {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -194,20 +144,13 @@
 }
 
 .catalog {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
 
 .card {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -242,11 +185,7 @@
 
 .conainerMainCatalogButton {
     margin-top: 48px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -270,24 +209,13 @@
 .firstPartFooter {
     padding-top: 103px;
     padding-bottom: 104px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .deliverSalseQuality {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -326,24 +254,13 @@
 }
 
 .secondPartFooter {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .faceSecondPartFooter {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     padding-top: 97px;
     padding-bottom: 126px;
@@ -370,15 +287,8 @@
 }
 
 .subscribeSecondPartFooter {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     padding-top: 150px;
     padding-bottom: 156px;
@@ -405,11 +315,7 @@
     padding-right: 64px;
     font-size: 14px;
     line-height: 17px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     color: #222224;
     opacity: 0.67;
@@ -422,15 +328,9 @@
 }
 
 .buttonSubscribe {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     color: #FFFFFF;
     background: #F16D7F;
@@ -442,17 +342,11 @@
 }
 
 .emailSubscribe {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
 .thirdPartFooter {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -496,9 +390,7 @@
     background: #FFFFFF;
     height: inherit;
     margin-left: auto;
-    -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     overflow: auto;
     /* position: absolute; */
@@ -515,12 +407,7 @@
 }
 
 .menuBrand_part {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     padding-bottom: 9px;
 }
@@ -553,11 +440,7 @@
 }
 
 .lableBrend {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -609,7 +492,6 @@
     }
     .mainCatalog {
         gap: 20px;
-        -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         padding-left: 16px;
         padding-right: 16px;
@@ -626,7 +508,6 @@
         height: 116px;
     }
     .catalog {
-        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         gap: 16px;
         padding-left: 16px;
@@ -644,8 +525,6 @@
     .secondPartTop {
         height: 368px;
         width: 375px;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
     }
     .lableBrend_text>p:nth-child(1) {
@@ -665,7 +544,6 @@
     }
     .mainCatalog {
         gap: 32px;
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         padding-left: 16px;
         padding-right: 16px;
@@ -682,7 +560,6 @@
         height: 111px;
     }
     .catalog {
-        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         gap: 16px;
         padding-left: 7px;
@@ -692,6 +569,3 @@
         width: 160px;
     }
 }
-
-
-/*# sourceMappingURL=style.css.map */

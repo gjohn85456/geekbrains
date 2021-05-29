@@ -1,7 +1,6 @@
 $pink:#F16D7F;
 $gray-color-card:#575757;
 $grayLighter-color-card:#6F6E6E;
-//думал  все border поместить в переменную, но оказалось не все они в одном стиле
 .cartSecondPartTop {
     height: 148px;
     background: #F8F3F4;
@@ -126,7 +125,6 @@ $grayLighter-color-card:#6F6E6E;
                 }
             }
         }
-        //почему такая конструкция не работает? и как обратится по селектору?
         &>.mainCart_left_card-1:nth-child(2) {
             margin-top: 40px;
         }
