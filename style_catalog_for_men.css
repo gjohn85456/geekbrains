@@ -71,6 +71,8 @@
     gap: 30px;
 }
 
+
+/* 
 .catalogItem {
     background: #F8F8F8;
 }
@@ -98,7 +100,7 @@
     color: #5D5D5D;
     padding-left: 16px;
     padding-right: 16px;
-}
+} */
 
 .priceCatalogForMen {
     padding-top: 18px;
@@ -215,8 +217,8 @@
     .catalogItem {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center;
+        align-items: center; */
     }
     .secondPartFooter {
         flex-direction: column;
