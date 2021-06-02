@@ -60,7 +60,7 @@
 
 .secondPartTop {
     display: flex;
-    /* width: 1600px; */
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -81,6 +81,7 @@
 }
 
 .accesories {
+    grid-column: 1;
     grid-column-start: 1;
     grid-column-end: -1;
 }
@@ -479,6 +480,9 @@
         width: 386px;
         height: 368px;
     }
+    .secondPartTop {
+        width: 768px;
+    }
     .lableBrend_text>p:nth-child(1) {
         font-size: 44px;
         line-height: 53px;
@@ -570,3 +574,10 @@
         width: 160px;
     }
 }
+
+.email {
+    width: 160px;
+}
+
+@import "bem/catalog";
+@import "bem/card";
